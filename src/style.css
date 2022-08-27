@@ -10,9 +10,11 @@
 .wrapper {
    background: linear-gradient(to top, #fdffab 0%, #347BE5 100%);
    font-family: var(--main-font);
+   height: 100%;
 }
 .hero {
    padding: 45px;
+   
 }
 .container {
    background: #FFFFFF;
@@ -110,5 +112,38 @@ p {
 .hero__footer {
    background: #fdffab;
    padding: 20px 0;
+}
+@media(max-width:992px) {
+   h2 {
+      font-size: 30px;
+      text-align: center;
+   }
+   h1 {
+      font-size: 50px;
+      text-align: center;
+   }
+   p {
+      font-size: 18px;
+      padding-right: 20px;
+      margin-bottom: 40px;
+   }
+}
+@media(max-width:768px) {
+   h2 {
+      font-size: 20px;
+      padding-top: 20px;
+   }
+   h1 {
+      font-size: 35px;
+   }
+   p {
+      text-align: center;
+      font-size: 12px;
+   }
+   .btn {
+      padding: 10px 15px;
+      max-width: 100px;
+      
+   }
 }
 
