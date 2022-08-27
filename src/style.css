@@ -11,7 +11,6 @@
    background: linear-gradient(to top, #fdffab 0%, #347BE5 100%);
    font-family: var(--main-font);
 }
-/* #f7e185  #fdffab */
 .hero {
    padding: 45px;
 }
@@ -19,6 +18,9 @@
    background: #FFFFFF;
    max-width: 100%;
    border-radius: 20px;
+}
+.row {
+   padding-bottom: 50px;
 }
 .hero__header {
    padding: 20px 10px 35px;
@@ -30,13 +32,12 @@
    color: #347BE5;
    font-weight: 700;
 }
-.col-6_img {
-   text-align: center;
-}
 .hero__img {
    padding: 5px;
    border-radius: 50%;
    border: 1px solid lightgrey;
+   width: 485px;
+   max-width: 100%;
 }
 h2,
 h1 {
@@ -51,6 +52,7 @@ h2 {
 h1 {
    color: black;
    font-size: 96px;
+   text-align: center;
 }
 p {
    font-size: 20px;
@@ -72,9 +74,41 @@ p {
    color: white;
 }
 .hero__footer {
+   margin-top: 20px;
    text-align: center;
    padding-bottom: 10px;
    font-size: 15px;
 }
-
+.section__header {
+   text-align: center;
+   margin-top: 30px;
+   padding: 20px 0;
+   color: black;
+   opacity: 0.8;
+   font-size: 46px;
+}
+.section__image{
+   background-color: #347BE5;
+   border-radius: 10px;
+   opacity: 0.5;
+   margin: 20px;
+}
+.img__pizza {
+   width: 100%;
+   max-width: 360px;
+   padding: 40px 0;
+}
+.img__weather {
+   width: 100%;
+   max-width: 250px;
+   padding: 30px 0;
+}
+.img__project {
+   width: 100%;
+   padding: 35px;
+}
+.hero__footer {
+   background: #fdffab;
+   padding: 20px 0;
+}
 
