@@ -164,6 +164,9 @@ p {
       width: 200px;
       max-width: 100%;
    }
+   .section___img {
+      max-width: 70%;
+   }
    .hero__footer {
       font-size: 15px;
    }
@@ -188,6 +191,9 @@ p {
       }
       .hero__footer {
          font-size: 10px;
+      }
+      .section___img {
+         max-width: 50%;
       }
    }
    
