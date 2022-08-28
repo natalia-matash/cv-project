@@ -90,24 +90,20 @@ p {
    font-size: 46px;
 }
 .section__image{
-   background-color: #347BE5;
-   border-radius: 10px;
    opacity: 0.5;
    margin: 20px;
 }
-.img__pizza {
-   width: 100%;
-   max-width: 360px;
-   padding: 40px 0;
+.section__image a {
+   text-decoration: none;
+   color: transparent;
 }
-.img__weather {
-   width: 100%;
-   max-width: 250px;
-   padding: 30px 0;
+.section__image:hover {
+   opacity: 0.8;
 }
-.img__project {
-   width: 100%;
-   padding: 35px;
+.section__image img {
+   border: 2px solid #347BE5;
+   border-radius: 10px;
+   padding: 10px;
 }
 .hero__footer {
    background: #fdffab;
