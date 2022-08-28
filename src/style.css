@@ -90,7 +90,7 @@ p {
    text-decoration: none;
    color: transparent;
 }
-.section__image :hover {
+.section__image:hover {
    opacity: 0.8;
 }
 .section__image img {
