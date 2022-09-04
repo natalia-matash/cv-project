@@ -7,9 +7,14 @@
 *:after {
    box-sizing: border-box;
 }
+h1, h2, h3 {
+   margin: 0;
+   padding: 0;
+}
 .wrapper {
    background: linear-gradient(to top, #fdffab 0%, #347BE5 100%);
    font-family: var(--main-font);
+   max-height: 100%;
 }
 .hero {
    padding: 45px;
@@ -54,11 +59,12 @@ h1 {
    color: black;
    font-size: 96px;
    text-align: center;
+   margin-bottom: 40px;
 }
 p {
    font-size: 20px;
    padding-right: 20px;
-   margin-bottom: 40px;
+   margin-bottom: 50px;
 }
 .btn {
    display: block;
@@ -196,6 +202,100 @@ p {
          max-width: 50%;
       }
    }
+
+   /*About me========================*/
    
+   .wrapper__about {
+      background-color: #347BE5;
+      font-family: var(--main-font);
+      height: 100%;
+   }
+   .about {
+      padding: 45px;  
+   }
+   .container {
+      background: #FFFFFF;
+      border-radius: 20px;
+   }
+   .about__img img {
+      display: block;
+      margin: 0 auto;
+   }
+   .about__title {
+      color: black;
+      font-family: var(--heads-font);
+      font-size: 40px;
+      text-align: center;
+   }
+   .about__suptitle {
+      color: black;
+      font-family: var(--heads-font);
+      opacity: 0.6;
+      font-size: 24px;
+      text-align: center;
+   }
+   .info__header {
+      color: #347BE5;
+      font-weight: 700;
+   }
+ .about__row {
+   margin-bottom: 14px;
+   padding-bottom: 0;
+ }
+ .about__col {
+   margin-bottom: 10px;
+   padding-bottom: 0;
+ }
+ @media(max-width: 1200px) {
+   .about__title {
+      font-size: 30px;
+      margin-bottom: 15px;
+   }
+   .about__suptitle {
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
    
- 
+}
+@media(max-width: 998px) {
+  .about__title {
+   margin-top: 40px;
+  }
+  .about__info {
+   margin-left: 50px;
+  }
+}
+@media(max-width: 710px) {
+   .about__info {
+      margin-left: 10px;
+     }
+}
+@media(max-width: 576px) {
+   .navbar-brand {
+      font-size: 15px;
+   }
+   .about__title {
+      font-size: 25px;
+      margin: 20px 0 0;
+   }
+   .about__suptitle {
+      font-size: 16px;
+      margin-bottom: 20px;
+   }
+   .about__info {
+   font-size: 14px;
+   margin-left: 0;
+   }
+   .info__header {
+      text-align: center;
+   }
+   .info__text {
+      text-align: center;
+      margin: 0;
+   }
+   .info__text li {
+      list-style: none;
+
+   }
+
+}
