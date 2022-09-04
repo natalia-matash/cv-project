@@ -272,7 +272,7 @@ p {
 }
 @media(max-width: 576px) {
    .about {
-      padding: 15px;
+      padding: 25px;
    }
    .navbar-brand {
       font-size: 15px;
