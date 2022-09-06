@@ -302,3 +302,23 @@ p {
    }
 
 }
+
+/*Portfolio=================*/
+.wrapper__portfolio {
+   background-color: #347BE5;
+   font-family: var(--main-font);
+   height: 100%;
+}
+.portfolio {
+   padding: 45px;  
+}
+.container {
+   background: #FFFFFF;
+   border-radius: 20px;
+}
+.works__title {
+   color: black;
+   font-family: var(--heads-font);
+   font-size: 40px;
+   text-align: center;
+}
