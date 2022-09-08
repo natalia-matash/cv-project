@@ -386,7 +386,7 @@ p {
 @media(max-width:700px) {
    .works__title {
       font-size: 30px;
-      margin-bottom: 0;
+      margin-bottom: 20px;
    }
    .works__items {
       margin-top: 30px;
@@ -406,21 +406,23 @@ p {
    }
 }
 @media(max-width:614px) {
-   .hero__header {
-      padding-bottom: 10px;
-   }
    .works__items {
       margin-top: 10px;
    }
    .works__img {
       display: none;
    }
+   .info__title {
+      line-height: 2.5;
+   }
    .works__info {
+      margin-top: 30px;
       width: 100%;
       text-align: center;
+      line-height: 2;
    }
    .works__btn {
-      margin: 15px auto 0;
+      margin: 35px auto 0;
    }
 }
 @media(max-width: 576px) {
