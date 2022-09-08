@@ -12,7 +12,7 @@ h1, h2, h3 {
    padding: 0;
 }
 .wrapper {
-   background: linear-gradient(to top, #fdffab 0%, #347BE5 100%);
+   background: linear-gradient(to top, #fdffab 0%, #347BE5 50%);
    font-family: var(--main-font);
    max-height: 100%;
 }
@@ -238,10 +238,9 @@ p {
       color: #347BE5;
       font-weight: 700;
    }
- .about__row {
-   margin-bottom: 14px;
-   padding-bottom: 0;
- }
+   .about__row {
+     padding: 0px;
+   }
  .about__col {
    margin-bottom: 10px;
    padding-bottom: 0;
@@ -424,6 +423,11 @@ p {
       margin: 15px auto 0;
    }
 }
+@media(max-width: 576px) {
+   .portfolio {
+      padding: 25px;
+   }
+}
 @media(max-width:385px) {
    .hero__header {
       padding-bottom: 10px;
@@ -445,16 +449,36 @@ p {
       font-size: 10px;
    }
 }
-/*Contact=============================*/
-.contact__title {
-   font-size: 50px;
+
+
+.wrapper__portfolio {
+   background-color: #347BE5;
+   font-family: var(--main-font);
+   height: 100%;
+}
+.portfolio {
+   padding: 45px;  
+}
+.container {
+   background: #FFFFFF;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
 }
 .in__touch {
-   padding-top: 30px;
+   flex: 1 0 auto;
+}
+.contact__title {
+   font-size: 50px;
+   font-family: var(--heads-font);
+   text-align: center;
+}
+.in__touch {
+   padding-top: 50px;
 }
 .contact {
    margin-top: 100px;
-   margin-bottom: 100px;
    text-align: center;
 }
 .contact__name {
@@ -464,15 +488,13 @@ p {
    font-size: 25px;
 }
 .contact__description {
-   margin-bottom: 35px;
+   margin-bottom: 30px;
 }
 .contact__description i {
    margin-right: 7px;
 }
 .footer__cont {
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 50px;
 }
 .footer__cont i {
    margin: 0 15px;
@@ -485,7 +507,7 @@ p {
 @media(max-width: 768px) {
    .contact {
       margin-top: 0px;
-      margin-bottom: 100px;
+      margin-bottom: 150px;
       text-align: center;
    }
    .contact__title {
@@ -503,9 +525,17 @@ p {
       font-size: 15px;
    }
    .footer__cont {
-      padding-bottom: 30px;
+      padding-bottom: 50px;
       font-size: 13px;
     }
+}
+@media(max-width: 576px) {
+   .contact {
+      padding: 25px;
+   }
+   .portfolio {
+      padding: 25px;
+   }
 }
 @media(max-width: 420px) {
    .contact__title {
@@ -522,7 +552,7 @@ p {
       font-size: 12px;
     }
     .contact {
-       margin-bottom: 0px;
+       margin-bottom: 15px;
    }
     
 }
